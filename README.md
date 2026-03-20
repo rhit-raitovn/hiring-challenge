@@ -14,7 +14,6 @@ Add my_parser.awk to analyze space mission logs and identify the longest complet
 - Filters for Mars + Completed missions
 - Skips comments and empty lines
 - Handles inconsistent field spacing
-- Outputs mission date, ID, duration, and security code
 
 ### Run it with
 

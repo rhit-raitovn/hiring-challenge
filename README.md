@@ -18,3 +18,10 @@ Add my_parser.awk to analyze space mission logs and identify the longest complet
 ### Run it with
 
 `awk -f my_parser.awk space_missions.log`
+
+### Output:
+
+```
+Longest Completed Mars Mission
+Security Code: XRT-421-ZQP
+```

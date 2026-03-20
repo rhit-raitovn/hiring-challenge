@@ -6,3 +6,16 @@ This is a programming challenge for candidates who are interested in applying to
 Participation in the challenge is optional. You can still submit an application without doing the hiring challenge.
 
 Get started by reading the [challenge description](mission_challenge.md). Good luck!
+
+## Submission Notes
+
+Add my_parser.awk to analyze space mission logs and identify the longest completed Mars mission.
+
+- Filters for Mars + Completed missions
+- Skips comments and empty lines
+- Handles inconsistent field spacing
+- Outputs mission date, ID, duration, and security code
+
+### Run it with
+
+`awk -f my_parser.awk space_missions.log`
